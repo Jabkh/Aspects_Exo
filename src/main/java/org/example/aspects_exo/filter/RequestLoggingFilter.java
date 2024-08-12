@@ -18,7 +18,7 @@ public class RequestLoggingFilter implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        // Initialisation du filtre si nécessaire
+
     }
 
     @Override
@@ -45,6 +45,6 @@ public class RequestLoggingFilter implements Filter {
 
     @Override
     public void destroy() {
-        // Nettoyage du filtre si nécessaire
+
     }
 }
